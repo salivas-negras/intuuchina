@@ -2,6 +2,10 @@
  * - Reset CSS -
  * -------------
  */
+html {
+  overflow-x: hidden;
+}
+
 ul {
   margin-bottom: 0;
   padding: 0;
