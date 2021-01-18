@@ -1,6 +1,6 @@
 <div class="misc {{ isset($variant) ? 'misc--' . $variant : '' }}">
     <section class="misc__copyright">
-        <p>{!! __('content.copyright') !!}</p>
+        <p>{!! __('misc.signature', ['year' => \Carbon\Carbon::now()->year]) !!}</p>
     </section>
     <section class="misc__author">
         <span>{{ __('content.made with love by ') }}</span>
