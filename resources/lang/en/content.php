@@ -289,20 +289,10 @@ return [
     'staying' => 'Staying of :time month|Staying of :time months',
     'study chinese via' => 'Study Chinese via',
     'sign in' => 'Sign In',
-    'edit' => 'Editar',
+    'edit' => 'Edit',
     'title' => 'Title',
     'offer location label' => 'Location',
     'save' => 'Save',
     'testimonials' => 'Testimonials',
     'program' => 'Program',
-
-
-    /*
-    |--------------------------------------------------------------------------
-    | Signatures
-    |--------------------------------------------------------------------------
-    */
-
-    'made with love by ' => 'Made with love ❤ by ',
-    'copyright' => 'IntuuChina Copyright © 2019 <br/>All rights reserved',
 ];
