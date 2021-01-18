@@ -16263,6 +16263,12 @@ input.c-text-input.is-invalid:-ms-input-placeholder {
   }
 }
 
+/* Google Recaptcha Badge */
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
 .modal .modal-link {
   color: #C80B0B;
 }
