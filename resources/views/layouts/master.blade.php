@@ -24,8 +24,16 @@
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- reCAPCTCHA v2.0 de Google -->
+    <!-- reCAPCTCHA v3.0 de Google -->
     <script src='https://www.google.com/recaptcha/api.js?hl={{ app()->getLocale() }}' async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?render={{ config('recaptcha.captcha_key') }}"></script>
+    <script>
+        grecaptcha.ready(function() {
+            grecaptcha.execute('{{ config('recaptcha.captcha_key')  }}').then(function(token) {
+                document.getElementById("recaptcha_token").value = token;
+            });
+        });
+    </script>
 
     <!-- Favicon -->
     @include('partials/_favicon')
